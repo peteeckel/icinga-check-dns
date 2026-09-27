@@ -1,10 +1,11 @@
 [project]
 name= "icinga-check-dns"
-version = "0.0.1"
+version = "0.0.2"
 description  = "Icinga/Nagios check that uses dnsviz to check many parameters"
 keywords = ["DNS",  "dnsviz",  "Nagios",  "Icinga", "check" ]
 authors = [
     {name = "Pieter Lexis", email = "pieter.lexis@powerdns.com"}
+    {name = "Peter eckel", email = "pe@sys4.de"}
 ]
 readme = "README.md"
 license = "GPL-2.0-only"
@@ -49,5 +50,5 @@ indent-style = "space"
 line-ending = "lf"
 
 [build-system]
-requires = ['setuptools']
-build-backend = 'setuptools.build_meta'
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
