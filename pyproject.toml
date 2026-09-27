@@ -4,7 +4,7 @@ version = "0.0.2"
 description  = "Icinga/Nagios check that uses dnsviz to check many parameters"
 keywords = ["DNS",  "dnsviz",  "Nagios",  "Icinga", "check" ]
 authors = [
-    {name = "Pieter Lexis", email = "pieter.lexis@powerdns.com"}
+    {name = "Pieter Lexis", email = "pieter.lexis@powerdns.com"},
     {name = "Peter eckel", email = "pe@sys4.de"}
 ]
 readme = "README.md"
